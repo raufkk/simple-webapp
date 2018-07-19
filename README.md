@@ -44,6 +44,11 @@ This is used in the demonstration of development of Ansible Playbooks.
     
 ## 4. Install and Configure Web Server
 
+set locale using below command
+
+    export LC_ALL=C
+
+
 Install Python Flash dependency
 
     pip install flask
